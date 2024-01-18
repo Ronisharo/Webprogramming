@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        img {
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto; /* Center the image */
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .left {
+            float: left;
+            width: 15%; /* Decreased the width */
+            background-color: aliceblue;
+            padding: 20px;
+            height: 100vh;
+        }
+
+        .main {
+            float: left;
+            width: 75%; /* Adjusted the width */
+            padding: 20px;
+        }
+
+        /* Style for the right section */
+        .main h5 {
+            margin-top: 20px;
+        }
+
+        .main ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .main ul li::before {
+            content: "\2022"; /* Use a bullet point for list items */
+            color: black;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="left">
+            <img src="girl.jpg" alt="User" style="width: 100px;" class="center">
+            <br>
+            <hr>
+            <p>
+                <ul>
+                    <li>Enthusiastic learner</li>
+                    <li>Committed to work</li>
+                    <li>Quick learner</li>
+                </ul>
+            </p>
+            <hr>
+            <div style="text-align: left;">
+                <div style="display: inline-block; text-align: left;">
+                    <p>
+                        <b>Name: </b> DIVYALAXMI O S <br>
+                        <b>Email: </b>divya@student.tce.edu<br>
+                        <b>Contact: </b>988787665<br>
+                        Student (B.E. 2022-26)
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div style="background-color: lightskyblue;">
+                <h2>DIVYALAXMI O S</h2>
+                <h6>Engineering Student (2022-26)</h6>
+                <br>
+            </div>
+            <hr>
+            <p><b>Key Summary</b><br>
+                - Computer Science Engineering at Thiagarajar College of Engineering<br>
+                - Interested in web development<br>
+                - Looking out for an opportunity to learn new things and showcase my skills<br>
+                <hr>
+            </p>
+            <table>
+                <tr>
+                    <th>Title</th><th>Institute</th><th>Score</th><th>Year</th>
+                </tr>
+                <tr>
+                    <td>10th</td><td>Velammal</td><td>482/500</td><td>2020</td>
+                </tr>
+                <tr>
+                    <td>12th</td><td>Velammal</td><td>484/500</td><td>2022</td>
+                </tr>
+                <tr>
+                    <td>B.E. (CSE)</td><td>TCE</td><td>8.9 cgpa</td><td>2022-2026</td>
+                </tr>
+            </table>
+            <h5>Languages Known</h5>
+            <ul>
+                <li>Sourashtra</li>
+                <li>Tamil</li>
+                <li>English</li>
+                <li>Hindi</li>
+            </ul>
+            <h5>Skills</h5>
+            <ul>
+                <li>PYTHON</li>
+                <LI>DJANGO</LI>
+                <LI>JAVA</LI>
+                <LI>C</LI>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
