@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form in HTML</title>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <form method="post" action="#">
+        <fieldset>
+            <legend>User Personal Information</legend>
+            <label>Enter your full name</label><br>
+            <input type="text" name="name"><br>
+            <label>Enter your email</label><br>
+            <input type="email" name="email"><br>
+            <label>Enter your password</label><br>
+            <input type="password" name="password"><br>
+            <label>Confirm your password</label><br>
+            <input type="password" name="confirm_password"><br>
+            <br>
+            <label>Enter your gender</label><br>
+            <input type="radio" id="male" name="gender" value="male">Male<br>
+            <input type="radio" id="female" name="gender" value="female">Female<br>
+            <input type="radio" id="others" name="gender" value="others">Others<br>
+            <br>
+            Enter your Address:<br>
+            <textarea name="address"></textarea><br>
+
+          
+            <label>Select your country</label><br>
+            <select name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+            </select><br>
+
+            <label>Choose your interests</label><br>
+            <input type="checkbox" name="interests" value="programming"> Programming<br>
+            <input type="checkbox" name="interests" value="travel"> Travel<br>
+            <input type="checkbox" name="interests" value="sports"> Sports<br>
+
+            <br>
+            <label>Select your preferred language</label><br>
+            <select name="language" multiple>
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+            </select><br>
+
+            <label>Date of Birth</label><br>
+            <input type="date" name="dob"><br>
+
+            <label>Upload your profile picture</label><br>
+            <input type="file" name="profile_picture"><br>
+
+           
+
+            <label>Color</label><br>
+            <input type="color" name="favorite_color" value="#ff0000"><br>
+
+            <label>URL</label><br>
+            <input type="url" name="website" placeholder="https://www.example.com"><br>
+
+            <label>Hidden Input (not displayed)</label><br>
+            <input type="hidden" name="hidden_field" value="hidden_value">
+
+            <br>
+            <label>Number of family members</label><br>
+            <input type="number" name="family_members" min="1" max="10" value="1"><br>
+
+            <label>Search for a topic</label><br>
+            <input type="search" name="search_topic" placeholder="Search..."><br>
+
+            <label>Telephone number</label><br>
+            <input type="tel" name="telephone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890"><br>
+
+            <label>Mark your progress</label><br>
+            <meter min="0" max="100" value="50">50%</meter><br>
+
+            <label>Define a term</label><br>
+            <dfn title="Definition">HTML</dfn><br>
+
+            <label>Insert a modification</label><br>
+            <ins datetime="2024-01-15">Inserted Text</ins><br>
+
+            <label>Abbreviation</label><br>
+            <abbr title="World Wide Web">WWW</abbr><br>
+
+            
+            <input type="submit" value="Sign Up">
+        </fieldset>
+    </form>
+</body>
+
+</html>
